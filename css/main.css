@@ -162,7 +162,7 @@ header {
   width: 95%;
   height: 50px;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   border: 1px solid  gray;
   margin: 1em 0 1.5em 2em;
@@ -178,14 +178,16 @@ header {
 
 .navbar {
   overflow: hidden;
+  text-align: center;
 
 }
 
-.navbar a {
+.dropdown-content a {
   float: left;
   font-size: 1em;
   text-align: center;
   text-decoration: none;
+
 }
 
 .dropdown {
@@ -201,13 +203,15 @@ header {
   border: none;
   outline: none;
   padding: 14px;
-
   background-color: inherit;
   font-family: inherit;
   margin: 0;
 }
 
-.navbar a:hover, .dropdown:hover .dropbtn {
+.navbar a:hover,
+.dropdown:hover .dropbtn
+
+ {
   background-color: gray;
 }
 
@@ -232,7 +236,7 @@ header {
   width: 10em;
 }
 
-.dropdown-content a:hover {
+.dropdown-content a:hover  {
   background-color: gray;
 }
 
@@ -249,6 +253,9 @@ header {
   border-right: 1px dashed #751b1b;
 }
 
+.dropbtn.selected {
+  background-color: gray;
+}
 
 /*********Main ****/
 
@@ -301,6 +308,23 @@ footer button {
   color: white;
   padding: 0.5em;
   margin-right: 2.5em;
+  position: fixed;
+  bottom: 0;
+  right: 0.5em;
+  border-radius: 5px;
+}
+
+
+/*--------Issues-----------*/
+
+.dropbtn a:link {
+  text-decoration: none;
+  color: black;
+}
+
+.dropbtn a:visited {
+  text-decoration: none;
+  color: black;
 }
 
 
