@@ -146,7 +146,9 @@ figure {
         height: 100%;
 }
 
-
+main {
+  width: 95%;
+}
 /******** Header *****/
 
 header {
