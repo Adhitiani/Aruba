@@ -329,6 +329,23 @@ footer button {
   color: black;
 }
 
+/*--------Links-----------*/
+
+.box {
+  border: 1px solid gray;
+  width: 29%;
+  margin-bottom: 1em;
+  padding: 0.5em;
+
+}
+
+section.main-content.links {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  border: hidden;
+  padding: 0;
+}
 
 
 
